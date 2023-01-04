@@ -32,7 +32,7 @@ Pra solucionar esse problema temos alguns procedimentos que podemos seguir.
 
 ### Adicionando um campo `NOT NULL`
 
-Para iniciar a adição de um campo __NÂO NULO__, primeiro siga os passos acima adicionando ele como __NULO__ inicialmente
+Para iniciar a adição de um campo __NOT NULL__, primeiro siga os passos acima adicionando ele como __NULL__ inicialmente
 
 1. Altere a coluna no modelo para `null=False`. Certifique-se que no seu código você não está inserindo ou atualizando esse campo com valores nulos;
 2. Gere as respectivas migrações com `python manage.py makemigrations`;
