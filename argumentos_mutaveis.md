@@ -18,7 +18,7 @@ Agora o que acontece se modificamos o valor padr√£o para uma lista ou um dicion√
 ```python
 from random import randint
 
-def mutable_function(a_list=[], a_dict={}):
+def mutable_arguments(a_list=[], a_dict={}):
     a_list.append(randint(0, 100))
     a_dict[randint(0, 100)] = randint(0, 100)
     
